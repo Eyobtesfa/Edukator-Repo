@@ -1,0 +1,374 @@
+﻿@model Edukator_2.Models.UpdateApplicant
+@{
+}
+
+
+
+
+
+
+
+<div class="w3apply-admission">
+    <div class="apply-admission-wrap">
+        <div class="apply-admission-inner">
+            <h4 class="title text-center">
+                <span>Apply for admission</span>
+            </h4>
+            <div class="caption text-center mb-2">
+                Make it more simple!
+            </div>
+            <div class="apply-form">
+                <form action="View" method="post">
+                    <input type="text" name="Id" placeholder="" required="" asp-for="Id" readonly>
+                    <input type="text" name="Name" placeholder="Your Name" required="" asp-for="Name">
+                    <input type="text" name="email" placeholder="Your Email" required="" asp-for="Email">
+                    <button type="submit" class="btn btn-style btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-style btn-danger" asp-action="Delete" asp-controller="Home">Delete</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<section class="w3l-about-breadcrumb text-center">
+    <div class="breadcrumb-bg breadcrumb-bg-about py-3">
+        <div class="container py-lg-5 py-md-4">
+            <div class="w3breadcrumb-gids">
+                <div class="w3breadcrumb-left text-left">
+                    <h2 class="title AboutPageBanner">
+                        Edit Your Info Here
+                    </h2>
+                    <p class="inner-page-para mt-2">
+                        Learn Anytime, Anywhere.
+                        Accelerate Your Future.
+                    </p>
+                </div>
+                <div class="w3breadcrumb-right">
+                    <ul class="breadcrumbs-custom-path">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active"><span class="fas fa-angle-double-right mx-2"></span> Courses</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--//breadcrumb-->
+<!--/-->
+<section class="w3l-homeblock1" id="about">
+    <div class="midd-w3 py-5">
+        <div class="container py-lg-5 py-md-3">
+            <div class="row cwp23-grids align-items-center">
+                <div class="col-lg-6">
+                    <h5 class="title-subw3hny">Make Updates</h5>
+                    <h3 class="title-w3l">You Can Correct Errors On Your Application <span class="inn-text">Topic</span></h3>
+                    <h6 class="mt-md-4 mt-md-5 mt-4">
+                        Build your library for your career
+                        <br>and personal growth
+                    </h6>
+                    <a href="about.html" class="btn btn-style btn-primary mt-lg-5 mt-4">View Courses</a>
+                </div>
+                <div class="HomeAboutImages col-lg-6 mt-lg-0 mt-5 pl-lg-5">
+                    <div class="cwp23-text-cols row">
+                        <div class="column col-6 mt-lg-4 pt-lg-1">
+                            <div class="column-w3-img position-relative">
+                                <a href="#">
+                                    <img src="assets/images/ab3.jpg" alt=""
+                                         class="radius-image img-fluid">
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--//-->
+<!--/popular-Courses-->
+<section class="w3l-courses" id="courses">
+    <div class="blog py-5">
+        <div class="container py-md-5 py-2">
+            <h5 class="title-subw3hny text-center">Featured Courses</h5>
+            <h3 class="title-w3l text-center">Popular <span class="inn-text">Courses</span></h3>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6 item mt-5">
+                    <div class="card">
+                        <div class="card-header p-0 position-relative">
+                            <a href="#course-single" class="zoom d-block">
+                                <img class="card-img-bottom d-block" src="assets/images/b1.jpg" alt="Card image cap">
+                            </a>
+                            <div class="post-pos">
+                                <a href="#popular" class="receipe blue">Beginner</a>
+                                <a href="#popular" class="receipe yellow ml-2">New</a>
+                            </div>
+                        </div>
+                        <div class="card-body course-details">
+                            <div class="price-review d-flex justify-content-between mb-1align-items-center">
+                                <p>$73.00</p>
+                                <ul class="rating-star">
+                                    <li><span class="fas fa-star"></span></li>
+                                    <li><span class="fas fa-star"></span></li>
+                                    <li><span class="fas fa-star"></span></li>
+                                    <li><span class="fas fa-star"></span></li>
+                                    <li><span class="fas fa-star-o"></span></li>
+                                </ul>
+                            </div>
+                            <a href="#course-single" class="course-desc">
+                                The Essential Guide to Entrepreneurship
+                            </a>
+                            <div class="course-meta mt-4">
+                                <div class="meta-item course-lesson">
+                                    <span class="fas fa-users"></span>
+                                    <span class="meta-value"> 68 Students enrolled</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 item mt-5">
+                    <div class="card">
+                        <div class="card-header p-0 position-relative">
+                            <a href="#course-single" class="zoom d-block">
+                                <img class="card-img-bottom d-block" src="assets/images/b2.jpg" alt="Card image cap">
+                            </a>
+
+
+                        </div>
+                        <div class="card-body course-details">
+                            <div class="price-review d-flex justify-content-between mb-1align-items-center">
+                                <p>$80.00</p>
+                                <ul class="rating-star">
+                                    <li><span class="fas fa-star"></span></li>
+                                    <li><span class="fas fa-star"></span></li>
+                                    <li><span class="fas fa-star"></span></li>
+                                    <li><span class="fas fa-star"></span></li>
+                                    <li><span class="fas fa-star-o"></span></li>
+                                </ul>
+                            </div>
+                            <a href="#course-single" class="course-desc">Sounds True’s Freedom to Choose Different</a>
+                            <div class="course-meta mt-4">
+                                <div class="meta-item course-lesson">
+                                    <span class="fas fa-users"></span>
+                                    <span class="meta-value"> 44 Students enrolled</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 item mt-5">
+                    <div class="card">
+                        <div class="card-header p-0 position-relative">
+                            <a href="#course-single" class="zoom d-block">
+                                <img class="card-img-bottom d-block" src="assets/images/b3.jpg" alt="Card image cap">
+                            </a>
+                            <div class="post-pos">
+                                <a href="#reciepe" class="receipe blue">Beginner</a>
+                                <a href="#popular" class="receipe yellow ml-2">Free</a>
+                            </div>
+                        </div>
+                        <div class="card-body course-details">
+                            <div class="price-review d-flex justify-content-between mb-1align-items-center">
+                                <p>$99.00</p>
+                                <ul class="rating-star">
+                                    <li><span class="fas fa-star"></span></li>
+                                    <li><span class="fas fa-star"></span></li>
+                                    <li><span class="fas fa-star"></span></li>
+                                    <li><span class="fas fa-star"></span></li>
+                                    <li><span class="fas fa-star-o"></span></li>
+                                </ul>
+                            </div>
+                            <a href="#course-single" class="course-desc">
+                                Learn Master JQuery in a Short Period of
+                                Time
+                            </a>
+                            <div class="course-meta mt-4">
+                                <div class="meta-item course-lesson">
+                                    <span class="fas fa-users"></span>
+                                    <span class="meta-value"> 74 Students enrolled</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 item mt-5">
+                    <div class="card">
+                        <div class="card-header p-0 position-relative">
+                            <a href="#course-single" class="zoom d-block">
+                                <img class="card-img-bottom d-block" src="assets/images/b4.jpg" alt="Card image cap">
+                            </a>
+
+
+                        </div>
+                        <div class="card-body course-details">
+                            <div class="price-review d-flex justify-content-between mb-1align-items-center">
+                                <p>$88.00</p>
+                                <ul class="rating-star">
+                                    <li><span class="fas fa-star"></span></li>
+                                    <li><span class="fas fa-star"></span></li>
+                                    <li><span class="fas fa-star"></span></li>
+                                    <li><span class="fas fa-star"></span></li>
+                                    <li><span class="fas fa-star-o"></span></li>
+                                </ul>
+                            </div>
+                            <a href="#course-single" class="course-desc">Business Analysis: Working with Use Cases</a>
+                            <div class="course-meta mt-4">
+                                <div class="meta-item course-lesson">
+                                    <span class="fas fa-users"></span>
+                                    <span class="meta-value"> 64 Students enrolled</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 item mt-5">
+                    <div class="card">
+                        <div class="card-header p-0 position-relative">
+                            <a href="#course-single" class="zoom d-block">
+                                <img class="card-img-bottom d-block" src="assets/images/b5.jpg" alt="Card image cap">
+                            </a>
+
+
+                        </div>
+                        <div class="card-body course-details">
+                            <div class="price-review d-flex justify-content-between mb-1align-items-center">
+                                <p>$70.00</p>
+                                <ul class="rating-star">
+                                    <li><span class="fas fa-star"></span></li>
+                                    <li><span class="fas fa-star"></span></li>
+                                    <li><span class="fas fa-star"></span></li>
+                                    <li><span class="fas fa-star"></span></li>
+                                    <li><span class="fas fa-star-o"></span></li>
+                                </ul>
+                            </div>
+                            <a href="#course-single" class="course-desc">Sounds True’s Freedom to Choose Different</a>
+                            <div class="course-meta mt-4">
+                                <div class="meta-item course-lesson">
+                                    <span class="fas fa-users"></span>
+                                    <span class="meta-value"> 44 Students enrolled</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 item mt-5">
+                    <div class="card">
+                        <div class="card-header p-0 position-relative">
+                            <a href="#course-single" class="zoom d-block">
+                                <img class="card-img-bottom d-block" src="assets/images/b6.jpg" alt="Card image cap">
+                            </a>
+
+
+                        </div>
+                        <div class="card-body course-details">
+                            <div class="price-review d-flex justify-content-between mb-1align-items-center">
+                                <p>$60.00</p>
+                                <ul class="rating-star">
+                                    <li><span class="fas fa-star"></span></li>
+                                    <li><span class="fas fa-star"></span></li>
+                                    <li><span class="fas fa-star"></span></li>
+                                    <li><span class="fas fa-star"></span></li>
+                                    <li><span class="fas fa-star-o"></span></li>
+                                </ul>
+                            </div>
+                            <a href="#course-single" class="course-desc">Sounds True’s Freedom to Choose Different</a>
+                            <div class="course-meta mt-4">
+                                <div class="meta-item course-lesson">
+                                    <span class="fas fa-users"></span>
+                                    <span class="meta-value"> 44 Students enrolled</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 item mt-5">
+                    <div class="card">
+                        <div class="card-header p-0 position-relative">
+                            <a href="#course-single" class="zoom d-block">
+                                <img class="card-img-bottom d-block" src="assets/images/b7.jpg" alt="Card image cap">
+                            </a>
+                            <div class="post-pos">
+                                <a href="#reciepe" class="receipe blue">Beginner</a>
+                                <a href="#popular" class="receipe yellow ml-2">Free</a>
+                            </div>
+                        </div>
+                        <div class="card-body course-details">
+                            <div class="price-review d-flex justify-content-between mb-1align-items-center">
+                                <p>$69.00</p>
+                                <ul class="rating-star">
+                                    <li><span class="fas fa-star"></span></li>
+                                    <li><span class="fas fa-star"></span></li>
+                                    <li><span class="fas fa-star"></span></li>
+                                    <li><span class="fas fa-star"></span></li>
+                                    <li><span class="fas fa-star-o"></span></li>
+                                </ul>
+                            </div>
+                            <a href="#course-single" class="course-desc">
+                                Learn Master JQuery in a Short Period of
+                                Time
+                            </a>
+                            <div class="course-meta mt-4">
+                                <div class="meta-item course-lesson">
+                                    <span class="fas fa-users"></span>
+                                    <span class="meta-value"> 74 Students enrolled</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 item mt-5">
+                    <div class="card">
+                        <div class="card-header p-0 position-relative">
+                            <a href="#course-single" class="zoom d-block">
+                                <img class="card-img-bottom d-block" src="assets/images/b8.jpg" alt="Card image cap">
+                            </a>
+
+
+                        </div>
+                        <div class="card-body course-details">
+                            <div class="price-review d-flex justify-content-between mb-1align-items-center">
+                                <p>$90.00</p>
+                                <ul class="rating-star">
+                                    <li><span class="fas fa-star"></span></li>
+                                    <li><span class="fas fa-star"></span></li>
+                                    <li><span class="fas fa-star"></span></li>
+                                    <li><span class="fas fa-star"></span></li>
+                                    <li><span class="fas fa-star-o"></span></li>
+                                </ul>
+                            </div>
+                            <a href="#course-single" class="course-desc">Business Analysis: Working with Use Cases</a>
+                            <div class="course-meta mt-4">
+                                <div class="meta-item course-lesson">
+                                    <span class="fas fa-users"></span>
+                                    <span class="meta-value"> 64 Students enrolled</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--//popular-Courses-->
+
+
+
+
+
